@@ -1,6 +1,6 @@
 from __init__ import *
 
-class People_distance(object):
+class CaculateDistance(object):
     def __init__(self):
         self.angle_factor = config.get("Algorithm", "distance_coefficient") # 主要修改这个变量
     # TODO: 这四个函数代码可以优化，由于我在循环中已经排除掉了所有自身比对的情况，因此此处不存在分母为0的情况。
